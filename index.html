@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="w3.css">
+    <link rel="shortcut icon" href="logomini.jpg" type="image/x-icon">
+    <script>
+        function openKota(namakota)
+        {
+            var i;
+            var x = document.getElementsByClassName("kota");
+            for (i = 0; i<x.length; i++) {
+                x[i].style.display = "none";
+            }
+            document.getElementById(namakota).style.display = "block";
+        }
+    </script>
+    <title>Valorant</title>
+</head>
+<body bgcolor='black'>
+    <div class="w3-responsive">
+        <center>
+            <img src="header.jpg" width="100%" height="200">
+        </center>
+    </div>
+	
+    <div class="w3-bar w3-black w3-card-4">
+        <button class="w3-bar-item w3-button" onclick="openKota('home')">Home</button>
+        <button class="w3-bar-item w3-button" onclick="openKota('agent')">Agent</button>
+        <button class="w3-bar-item w3-button" onclick="openKota('weapon')">Weapon</button>
+		<button class="w3-bar-item w3-button" onclick="openKota('rank')">Rank</button>
+		<button class="w3-bar-item w3-button" onclick="openKota('map')">Map</button>
+        <div class="w3-dropdown-hover">
+            <button class="w3-button">Tournament</button>
+            <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                <button class="w3-bar-item w3-button" onclick="openKota('valorantchampions')">Valorant Champions</button>
+                <button class="w3-bar-item w3-button" onclick="openKota('valorantmasters')">Valorant Masters</button>
+                <button class="w3-bar-item w3-button" onclick="openKota('valorantchallengers')">Valorant Challengers</button>
+            </div>
+        </div>
+		<button class="w3-bar-item w3-button" onclick="openKota('profile')">Profile</button>
+    </div>
+	
+	
+	<div id="home" class="w3-responsive kota w3-animate-opacity w3-red" style="display: none;">
+        <center>
+        <img src="home.jpg" width="100%" height="720">
+		<div class="text-box">
+        <p>Valorant adalah permainan video FPS (First Person Shooter) taktis multipemain gratis yang dikembangkan dan diterbitkan oleh Riot Games, untuk Microsoft Windows. Pertama kali dikenalkan dengan nama kode Project A pada Oktober 2019, permainan memulai periode beta tertutup dengan akses terbatas pada 7 April 2020, diikuti dengan perilisan resmi pada 2 Juni 2020. Pengembangan permainan dimulai pada 2014.</p>
+		</div>
+		<video width="100%" controls>
+		<source src="valorant.mp4" type="video/mp4">
+		</video>
+		<img src="home2.jpg" width="100%" height="720">
+		<div class="text-box">
+		<p>Valorant adalah penembak taktis berbasis tim dan penembak orang pertama yang diatur dalam dekat masa depan. Pemain bermain sebagai salah satu dari sekumpulan agen, karakter yang dirancang berdasarkan beberapa negara dan budaya di seluruh dunia. Dalam mode permainan utama, pemain ditugaskan ke tim menyerang atau bertahan dengan masing-masing tim memiliki lima pemain di dalamnya. Agen memiliki kemampuan unik, masing-masing membutuhkan biaya, serta kemampuan akhir unik yang membutuhkan pengisian melalui pembunuhan, kematian, atau aksi spike. Setiap pemain memulai setiap putaran dengan pistol "classic" dan satu atau lebih muatan "kemampuan khas". Senjata dan biaya kemampuan lainnya dapat dibeli menggunakan sistem ekonomi dalam permainan yang memberikan uang berdasarkan hasil putaran sebelumnya, pembunuhan apa pun yang menjadi tanggung jawab pemain, dan tindakan apa pun yang diambil dengan spike. Agen yang berbeda memungkinkan pemain menemukan lebih banyak cara untuk memasang Spike dan gaya pada musuh dengan scrappers, ahli strategi, dan pemburu dari setiap deskripsi. Saat ini, menawarkan 21 agen untuk dipilih. Mereka adalah Brimstone, Phoenix, Sage, Harbor, Sova, Gekko, Viper, Cypher, Reyna, Killjoy, Fade, Neon, Breach, Omen, Jett, Raze, Skye, Yoru, Astra, KAY/O, dan Chamber.</p>
+        </div>
+		</center>
+    </div>
+	
+	<div id="agent" class="w3-responsive kota w3-animate-zoom w3-dark-gray" style="display: none;">
+        <center>
+        <img src="agent.jpg" width="100%" height="720">
+		<div class="text-box">
+		<p>Agen adalah karakter yang dapat dimainkan di VALORANT, mewakili agen Protokol VALORANT. Setiap agen berfungsi sebagai kelas berbeda dengan empat kemampuan.</p>
+        </center>
+    </div>
+	
+    <div id="weapon" class="w3-responsive kota w3-animate-top w3-black" style="display: none;">
+        <center>
+        <img src="weapon.jpg" width="100%" height="720">
+        </center>
+    </div>
+	
+	<div id="rank" class="w3-responsive kota w3-animate-bottom w3-black" style="display: none;">
+        <center>
+        <img src="rank.jpg" width="100%" height="720">
+		<div class="text-box">
+		<p>Layaknya game kompetitif lain, Valorant juga punya sistem rank list atau tier untuk para pemainnya. Setidaknya ada 9 rank di dalam game FPS ini. Setiap rank-nya akan dibagi menjadi 3 tier, kecuali pada rank tertinggi.</p>
+        </center>
+    </div>
+	
+	<div id="map" class="w3-responsive kota w3-animate-top w3-black" style="display: none;">
+        <center>
+        <img src="icebox.jpg" width="100%" height="720">
+		<img src="ascent.jpg" width="100%" height="720">
+		<img src="haven.jpg" width="100%" height="720">
+        </center>
+    </div>
+	
+    <div id="valorantchampions" class="w3-responsive kota w3-animate-top" style="display: none;">
+        <center>
+        <img src="valorantchampions.jpg" width="100%"  height="720">
+        </center>
+    </div>
+	
+	<div id="valorantmasters" class="w3-responsive kota w3-animate-top" style="display: none;">
+        <center>
+        <img src="valorantmasters.jpg" width="100%"  height="720">
+        </center>
+    </div>
+	
+	<div id="valorantchallengers" class="w3-responsive kota w3-animate-top" style="display: none;">
+        <center>
+        <img src="valorantchallengers.jpg" width="100%"  height="720">
+        </center>
+    </div>
+	
+	<div id="profile" class="w3-responsive kota w3-animate-opacity w3-black" style="display: none;">
+        <center>
+        <h4><b>Profile</b></h4>
+		<p>Alghifari Muhammad</p>
+		<p>10123410</p>
+		<p>IF-10</p>
+        </center>
+    </div>
+	
+    
+	
+</body>
+</html>
